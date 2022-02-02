@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo-img {
+    height: 45px;
+}
+
+.cutomize-ul {
+    text-align: center;
+    align-items: center;
+}
+.cutomize-ul li {
+    margin: 0 10px;
+}
+
+.cutomize-navBar{
+    background-color: #252525;
+    
+}
+
+.customize-nav-item {
+    align-items: center;
+    text-align: center;
+}
+.customize-search{
+    display: inline-block !important;
+    outline: none;
+    border: none;
+    border-radius: 20px !important;
+    margin: 2px;
+    
+}
+.customize-btn {
+    display: inline-block !important;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #337ab7;
+
+}
+.customize-btn i{
+    font-size: 18px;
+    
+}
+
+/* .customize-carousel-caption {
+    position: absolute !important;
+    top: 50% !important;
+    left: 20% !important;
+} */
+
+
+.get-veiw {
+    text-align: left;
+}
+.get-veiw a {
+    font-size: 22px;
+    border-radius: 5px;
+}
+.get-veiw a:hover{
+    text-decoration: none;
+}
+
+.scolarship {
+    position: absolute;
+    top: 70%;
+}
+.veiw-all-events {
+    display: block;
+    border-radius: 5px;
+    width: 250px;
+}
+.veiw-all-events:hover{
+    text-decoration: none;
+}
+
+.getStarted:hover{
+    background: rgb(151, 151, 151) !important;
+    color: whitesmoke !important;
+}
+
+
+/* text-color gradient  */
+
+
+.bgCustomize {
+    background: linear-gradient(to left, grey,white, black, white, white,  rgb(107, 107, 107));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.bgCustomizeP {
+    background: linear-gradient(to left, black,white, white);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 18px;
+    
+
+}
+
+
+.createAccount {
+    position: absolute;
+    top: 20%;
+}
+
+
+.aLinkTag a:hover {
+    text-decoration: none;
+    color: rgb(204, 202, 202) !important;
+}
+
+.aLinkTag button:hover {
+    background: rgb(241, 241, 241) !important;
+    
+    font-family: monospace;
+    outline: none;
+}
+
+/* javaScript  */
+
+.after-scroll-navbar {
+    background: darkred;
+}
